@@ -6,7 +6,7 @@ javascript: (function () {
       'Authorization': 'Bearer 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'
     },
     body: JSON.stringify({
-      "model": "gpt-3.5-turbo",
+      "model": "text-davincii-003",
       "prompt": window.getSelection(),
       "temperature": 0.7,
       "max_tokens": 4000,
