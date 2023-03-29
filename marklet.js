@@ -7,7 +7,7 @@ javascript: (function () {
     },
     body: JSON.stringify({
       "model": "gpt-3.5-turbo",
-      "prompt": document.body.innerText,
+      "prompt": window.getSelection(),
       "temperature": 0.7,
       "max_tokens": 4000,
       "top_p": 1,
