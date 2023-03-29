@@ -3,7 +3,7 @@ javascript: (function () {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer sk-xxxxxxxxxxxxxxxx'
+      'Authorization': 'Bearer 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'
     },
     body: JSON.stringify({
       "model": "gpt-3.5-turbo",
